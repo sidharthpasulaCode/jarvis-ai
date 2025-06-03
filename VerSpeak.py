@@ -28,8 +28,8 @@ SCOPES = [
     "https://www.googleapis.com/auth/gmail.send"
 ]
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or "AIzaSyC9-sF7WTeeNgkaBJGqcrKrpu-NhUguwLU"
-os.environ['ELEVENLABS_API_KEY'] = 'sk_32cdc2471264d75308cfae6b9d33515bcf524e2e51ba1e30'
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or "gemini here"
+os.environ['ELEVENLABS_API_KEY'] = 'ell here'
 
 # Initialize ElevenLabs client
 elevenlabs = ElevenLabs(api_key=os.getenv("ELEVENLABS_API_KEY"))
