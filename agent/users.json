@@ -1,0 +1,19 @@
+{
+  "default_user": "sid",
+  "users": {
+    "sid": {
+      "first_name": "Sidharth",
+      "last_name": "Pasula",
+      "email": "sidharth.pasula@gmail.com",
+      "locale": "en-US",
+      "signature": "Best,\nSid"
+    },
+    "mom": {
+      "first_name": "Jyothi",
+      "last_name": "Pasula",
+      "email": "jyo.pasula@gmail.com",
+      "locale": "en-US",
+      "signature": "Love,\nMom"
+    }
+  }
+}
