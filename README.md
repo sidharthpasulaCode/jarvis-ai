@@ -61,6 +61,8 @@ GEMINI_API_KEY=
 ELEVENLABS_API_KEY=
 ELEVENLABS_VOICE_ID=JBFqnCBsd6RMkjVDRZzb
 
+set up credentials through creating your own google cloud project and defining its capabilities
+a token will be generated afterward
 
 run using the following command:
 python -m agent.cli
