@@ -23,28 +23,8 @@ Jarvis is a local Python agent that turns **natural-language voice or text promp
 
 ---
 
-## 2  Project Layout
 
-jarvis-ai/
-│
-├─ agent/ ← importable package
-│ ├─ init.py
-│ ├─ cli.py # entry-point (python -m agent.cli)
-│ ├─ config.py # env vars, paths, placeholder regex
-│ ├─ speech.py # VoiceRecorder + STT
-│ ├─ auth.py # Google OAuth helpers
-│ ├─ contacts.py # scan mailbox, resolve names
-│ ├─ planner.py # Gemini call, JSON→dict
-│ ├─ executor.py # run plan, call Gmail/Docs/… + TTS
-│ └─ tts.py # ElevenLabs play() wrapper
-│
-├─ task_schema.json # function-calling schema (now incl. assistant_response)
-├─ users.json # sender profiles (“default_user” etc.)
-└─ README.md
-
----
-
-## 3  Prerequisites
+## 2  Prerequisites
 
 | What | Why |
 |------|-----|
